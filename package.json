@@ -8,6 +8,9 @@
   "name": "workspace",
   "private": true,
   "repository": "git@gitlab.com:caedes/workspace.git",
+  "scripts": {
+    "test": "lerna run test"
+  },
   "version": "0.1.0",
   "workspaces": ["packages/*"]
 }
