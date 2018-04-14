@@ -1,7 +1,13 @@
 {
   "author": "caedes <laurentromain@gmail.com>",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
   "description": "Lerna-Yarn-workspaces multi-packages repository",
   "devDependencies": {
+    "cz-conventional-changelog": "^2.1.0",
     "lerna": "^2.10.0"
   },
   "license": "MIT",
