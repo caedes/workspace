@@ -8,13 +8,15 @@
   "description": "Lerna-Yarn-workspaces multi-packages repository",
   "devDependencies": {
     "cz-conventional-changelog": "^2.1.0",
-    "lerna": "^2.10.0"
+    "lerna": "^2.10.0",
+    "prettier": "^1.12.0"
   },
   "license": "MIT",
   "name": "workspace",
   "private": true,
   "repository": "git@gitlab.com:caedes/workspace.git",
   "scripts": {
+    "format": "prettier --write \"packages/**/*.js\"",
     "test": "lerna run test"
   },
   "version": "0.1.0",
