@@ -1,10 +1,9 @@
-variables:
-  CONTAINER_TEST_IMAGE: hugomrdias/node-yarn:latest
+image: hugomrdias/node-yarn:latest
 
 test:
   stage: test
-  image: $CONTAINER_TEST_IMAGE
   script:
     - node -v
     - yarn --version
+    - yarn
     - yarn test
