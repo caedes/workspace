@@ -1,13 +1,13 @@
 {
-  "name": "workspace",
-  "version": "0.1.0",
-  "description": "Lerna-Yarn-workspaces multi-packages repository",
-  "repository": "git@gitlab.com:caedes/workspace.git",
   "author": "caedes <laurentromain@gmail.com>",
-  "license": "MIT",
-  "private": true,
+  "description": "Lerna-Yarn-workspaces multi-packages repository",
   "devDependencies": {
     "lerna": "^2.10.0"
   },
+  "license": "MIT",
+  "name": "workspace",
+  "private": true,
+  "repository": "git@gitlab.com:caedes/workspace.git",
+  "version": "0.1.0",
   "workspaces": ["packages/*"]
 }
