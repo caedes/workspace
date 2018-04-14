@@ -4,5 +4,10 @@
   "description": "Lerna-Yarn-workspaces multi-packages repository",
   "repository": "git@gitlab.com:caedes/workspace.git",
   "author": "caedes <laurentromain@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^2.10.0"
+  },
+  "workspaces": ["packages/*"]
 }
