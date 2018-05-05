@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`prepositions returns the prepositions 1`] = `
+Array [
+  "Avec",
+  "Considérant",
+  "Où que nous mène",
+  "Eu égard à",
+  "Vu",
+  "En ce qui concerne",
+  "Dans le cas particulier de",
+  "Quelle que soit",
+  "Du fait de",
+  "Tant que durera",
+  "Quoi qu'on dise concernant",
+  "Nonobstant",
+  "Compte tenu de",
+  "Malgré",
+  "Pour réagir face à",
+  "Afin de circonvenir à",
+  "Dans le but de pallier à",
+  "Si vous voulez mon avis concernant",
+]
+`;

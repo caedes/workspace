@@ -7,9 +7,15 @@
   },
   "description": "Lerna-Yarn-workspaces multi-packages repository",
   "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^22.4.3",
+    "babel-preset-env": "^1.6.1",
     "cz-conventional-changelog": "^2.1.0",
+    "jest": "^22.4.3",
     "lerna": "^2.10.0",
-    "prettier": "^1.12.0"
+    "prettier": "^1.12.0",
+    "regenerator-runtime": "^0.11.1",
+    "rollup": "^0.58.2"
   },
   "license": "MIT",
   "name": "workspace",
@@ -18,7 +24,6 @@
   "scripts": {
     "postinstall": "lerna bootstrap",
     "format": "prettier --write \"packages/**/*.js\"",
-    "test": "lerna run test"
-  },
-  "version": "0.1.0"
+    "test": "lerna run --parallel test"
+  }
 }

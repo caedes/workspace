@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`adjectives returns the adjectives 1`] = `
+Array [
+  "présente",
+  "actuelle",
+  "générale",
+  "induite",
+  "conjoncturelle",
+  "observée",
+  "contextuelle",
+  "de ces derniers temps",
+  "de l'époque actuelle",
+  "intrinsèque",
+  "que nous constatons",
+]
+`;

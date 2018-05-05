@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`names returns the names 1`] = `
+Array [
+  "la restriction",
+  "l'orientation",
+  "la crise",
+  "l'inertie",
+  "la difficulté",
+  "l'austérité",
+  "la dégradation",
+  "cette rigueur",
+  "la dualité de la situation",
+  "la baisse de confiance",
+  "la morosité",
+  "la situation",
+  "l'ambiance",
+  "la politique",
+  "la fragilité",
+  "complexité",
+  "l'inconstance",
+  "cette inflexion",
+]
+`;

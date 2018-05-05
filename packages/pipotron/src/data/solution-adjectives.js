@@ -1,0 +1,17 @@
+export default [
+  'imaginables',
+  'possibles',
+  "s'offrant à nous",
+  'de bon sens',
+  'envisageables',
+  'éventuelles',
+  'réalisables',
+  'déclinables',
+  'pertinentes',
+  'que nous connaissons',
+  'évidentes',
+  'optimales',
+  'opportunes',
+  'emblématiques',
+  'draconiennes',
+];

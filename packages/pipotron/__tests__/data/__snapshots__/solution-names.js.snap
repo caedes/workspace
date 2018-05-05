@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`solutionNames returns the solutionNames 1`] = `
+Array [
+  "solutions",
+  "issues",
+  "problématiques",
+  "voies",
+  "alternatives",
+  "organisations matricielles",
+  "améliorations",
+  "ouvertures",
+  "synergies",
+  "actions",
+  "options",
+  "décisions",
+  "modalités",
+  "hypothèses",
+  "stratégies",
+]
+`;

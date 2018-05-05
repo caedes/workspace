@@ -1,0 +1,16 @@
+export default [
+  'toutes les',
+  'chacune des',
+  'la majorité des',
+  'la simultanéité des',
+  "l'ensemble des",
+  'la somme des',
+  'la totalité des',
+  'la globalité des',
+  'les relations des',
+  'certaines',
+  'la plus grande partie des',
+  'les principales',
+  'systématiquement les',
+  'précisément les',
+];

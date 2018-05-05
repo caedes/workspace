@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`cleanFrenchSentence replaces "# a" 1`] = `"'a"`;
+
+exports[`cleanFrenchSentence replaces "# b" 1`] = `"e b"`;
+
+exports[`cleanFrenchSentence replaces "# c" 1`] = `"e c"`;
+
+exports[`cleanFrenchSentence replaces "# d" 1`] = `"e d"`;
+
+exports[`cleanFrenchSentence replaces "# e" 1`] = `"'e"`;
+
+exports[`cleanFrenchSentence replaces "# f" 1`] = `"e f"`;
+
+exports[`cleanFrenchSentence replaces "# g" 1`] = `"e g"`;
+
+exports[`cleanFrenchSentence replaces "# h" 1`] = `"e h"`;
+
+exports[`cleanFrenchSentence replaces "# i" 1`] = `"'i"`;
+
+exports[`cleanFrenchSentence replaces "# k" 1`] = `"e k"`;
+
+exports[`cleanFrenchSentence replaces "# l" 1`] = `"e l"`;
+
+exports[`cleanFrenchSentence replaces "# m" 1`] = `"e m"`;
+
+exports[`cleanFrenchSentence replaces "# n" 1`] = `"e n"`;
+
+exports[`cleanFrenchSentence replaces "# o" 1`] = `"'o"`;
+
+exports[`cleanFrenchSentence replaces "# p" 1`] = `"e p"`;
+
+exports[`cleanFrenchSentence replaces "# q" 1`] = `"e q"`;
+
+exports[`cleanFrenchSentence replaces "# r" 1`] = `"e r"`;
+
+exports[`cleanFrenchSentence replaces "# s" 1`] = `"e s"`;
+
+exports[`cleanFrenchSentence replaces "# t" 1`] = `"e t"`;
+
+exports[`cleanFrenchSentence replaces "# u" 1`] = `"'u"`;
+
+exports[`cleanFrenchSentence replaces "# v" 1`] = `"e v"`;
+
+exports[`cleanFrenchSentence replaces "# w" 1`] = `"e w"`;
+
+exports[`cleanFrenchSentence replaces "# x" 1`] = `"e x"`;
+
+exports[`cleanFrenchSentence replaces "# y" 1`] = `"'y"`;
+
+exports[`cleanFrenchSentence replaces "# z" 1`] = `"e z"`;
+
+exports[`cleanFrenchSentence replaces "# é" 1`] = `"'é"`;
+
+exports[`cleanFrenchSentence writes comma correctly 1`] = `","`;
+
+exports[`cleanFrenchSentence writes dot correctly 1`] = `"."`;
