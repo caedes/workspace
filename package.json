@@ -16,6 +16,7 @@
   "private": true,
   "repository": "git@gitlab.com:caedes/workspace.git",
   "scripts": {
+    "postinstall": "lerna bootstrap",
     "format": "prettier --write \"packages/**/*.js\"",
     "test": "lerna run test"
   },
