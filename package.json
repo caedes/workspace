@@ -11,19 +11,25 @@
     "babel-jest": "^22.4.3",
     "babel-preset-env": "^1.6.1",
     "cz-conventional-changelog": "^2.1.0",
+    "husky": "^0.14.3",
     "jest": "^22.4.3",
     "lerna": "^2.10.0",
-    "prettier": "^1.12.0",
+    "lint-staged": "^7.0.5",
+    "prettier": "^1.12.1",
     "regenerator-runtime": "^0.11.1",
     "rollup": "^0.58.2"
   },
   "license": "MIT",
+  "lint-staged": {
+    "*.{js,jsx,css,scss,json,md}": ["prettier --write", "git add"]
+  },
   "name": "workspace",
   "private": true,
   "repository": "git@gitlab.com:caedes/workspace.git",
   "scripts": {
-    "postinstall": "lerna bootstrap",
     "format": "prettier --write \"packages/**/*.js\"",
+    "postinstall": "lerna bootstrap",
+    "precommit": "lint-staged",
     "test": "lerna run --parallel test"
   }
 }
