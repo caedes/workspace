@@ -20,5 +20,8 @@
   "version": "0.1.0",
   "peerDependencies": {
     "spectacle": "^4.2.3"
+  },
+  "devDependencies": {
+    "jest": "^22.4.3"
   }
 }

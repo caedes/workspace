@@ -3,12 +3,7 @@
   "bugs": "https://gitlab.com/caedes/workspace/issues",
   "description": "Pipotron, the french random sentence generator",
   "homepage": "https://gitlab.com/caedes/workspace/tree/master/packages/pipotron",
-  "keywords": [
-    "string",
-    "text",
-    "pipotron",
-    "french"
-  ],
+  "keywords": ["string", "text", "pipotron", "french"],
   "license": "MIT",
   "main": "build/index.js",
   "name": "pipotron",
@@ -20,5 +15,8 @@
     "test:coverage": "jest --coverage",
     "test:watch": "jest --watch"
   },
-  "version": "1.2.5"
+  "version": "1.2.5",
+  "devDependencies": {
+    "jest": "^22.4.3"
+  }
 }
