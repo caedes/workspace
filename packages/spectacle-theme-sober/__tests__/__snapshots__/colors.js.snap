@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`colors returns the correct snapshot 1`] = `
+Object {
+  "primary": "white",
+  "quarternary": "#CECECE",
+  "secondary": "#1F2022",
+  "tertiary": "#03A9FC",
+}
+`;

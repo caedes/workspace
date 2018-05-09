@@ -1,0 +1,24 @@
+{
+  "author": "caedes",
+  "bugs": "https://gitlab.com/caedes/workspace/issues",
+  "description": "Sober theme for Spectacle",
+  "homepage":
+    "https://gitlab.com/caedes/workspace/tree/master/packages/spectacle-theme-sober",
+  "keywords": ["spectacle", "theme", "sober", "dark"],
+  "license": "MIT",
+  "main": "build/index.js",
+  "name": "spectacle-theme-sober",
+  "repository":
+    "https://gitlab.com/caedes/workspace/tree/master/packages/spectacle-theme-sober",
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "yarn test && yarn build",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "version": "0.1.0",
+  "peerDependencies": {
+    "spectacle": "^4.2.3"
+  }
+}

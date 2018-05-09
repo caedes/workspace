@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fonts returns the correct snapshot 1`] = `
+Object {
+  "primary": Object {
+    "googleFont": true,
+    "name": "Roboto",
+    "styles": Array [
+      "400",
+      "700",
+    ],
+  },
+  "secondary": Object {
+    "googleFont": true,
+    "name": "Comfortaa",
+    "styles": Array [
+      "400",
+      "700",
+    ],
+  },
+}
+`;
