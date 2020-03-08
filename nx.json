@@ -10,5 +10,13 @@
     "tslint.json": "*",
     "nx.json": "*"
   },
-  "projects": {}
+  "projects": {
+    "game": {
+      "tags": []
+    },
+    "game-e2e": {
+      "tags": [],
+      "implicitDependencies": ["game"]
+    }
+  }
 }
