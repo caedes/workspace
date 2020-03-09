@@ -23,11 +23,11 @@ jobs:
         uses: borales/actions-yarn@v2.0.0
         with:
           cmd: build
-      - name: Archive Production Artifact
+      - name: Archive GameScoring Production Artifact
         uses: actions/upload-artifact@master
         with:
-          name: build
-          path: build
+          name: game
+          path: dist/apps/game
 
   deploy:
     name: Deploy
@@ -36,11 +36,11 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@master
-      - name: Download Artifact
+      - name: Download GameScoring Artifact
         uses: actions/download-artifact@master
         with:
-          name: build
-      - name: Deploy to Firebase
+          name: game
+      - name: Deploy GameScoring to Firebase
         uses: w9jds/firebase-action@master
         with:
           args: deploy --only hosting
