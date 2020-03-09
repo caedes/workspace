@@ -15,12 +15,7 @@ export default function Header({ title, hasBackButton = false }) {
       <AppBar position="static">
         <Toolbar>
           {hasBackButton && (
-            <IconButton
-              edge="start"
-              color="inherit"
-              aria-label="back"
-              onClick={gotoBack}
-            >
+            <IconButton edge="start" color="inherit" aria-label="back" onClick={gotoBack}>
               <ArrowBack />
             </IconButton>
           )}

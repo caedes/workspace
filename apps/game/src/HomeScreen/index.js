@@ -10,11 +10,11 @@ const useStyles = makeStyles({
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'space-around',
-    minHeight: '100vh'
+    minHeight: '100vh',
   },
   title: {
-    textAlign: 'center'
-  }
+    textAlign: 'center',
+  },
 });
 
 export default function Home() {

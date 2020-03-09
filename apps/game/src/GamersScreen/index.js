@@ -14,8 +14,8 @@ const useStyles = makeStyles(theme => ({
   fab: {
     position: 'absolute',
     bottom: theme.spacing(2) + 56,
-    right: theme.spacing(2)
-  }
+    right: theme.spacing(2),
+  },
 }));
 
 export default function GamersScreen({ headerComponent }) {
@@ -28,12 +28,7 @@ export default function GamersScreen({ headerComponent }) {
 
   return (
     <>
-      <Fab
-        className={classes.fab}
-        color="primary"
-        aria-label="add"
-        onClick={gotoGamersNew}
-      >
+      <Fab className={classes.fab} color="primary" aria-label="add" onClick={gotoGamersNew}>
         <AddIcon />
       </Fab>
       {headerComponent && <Header title="Joueurs" />}
