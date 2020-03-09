@@ -11,11 +11,11 @@ import HomeScreen from '../HomeScreen';
 
 const useStyles = makeStyles({
   root: {
-    minHeight: '100vh'
+    minHeight: '100vh',
   },
   container: {
-    minHeight: '100vh'
-  }
+    minHeight: '100vh',
+  },
 });
 
 export default function App() {

@@ -61,10 +61,7 @@
           "options": {
             "linter": "eslint",
             "config": "apps/game/.eslintrc",
-            "tsConfig": [
-              "apps/game/tsconfig.app.json",
-              "apps/game/tsconfig.spec.json"
-            ],
+            "tsConfig": ["apps/game/tsconfig.app.json", "apps/game/tsconfig.spec.json"],
             "exclude": ["**/node_modules/**", "!apps/game/**"]
           }
         },

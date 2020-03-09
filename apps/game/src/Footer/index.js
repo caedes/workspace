@@ -12,16 +12,14 @@ const useStyles = makeStyles({
     width: '100%',
     position: 'absolute',
     bottom: 0,
-    borderTop: '1px solid #f1f1f1'
-  }
+    borderTop: '1px solid #f1f1f1',
+  },
 });
 
 export default function Footer() {
   const currentLocation = useLocation();
   const footerLocations = ['/', '/history', '/gamers'];
-  const currentLocationIndex = footerLocations.indexOf(
-    currentLocation.pathname
-  );
+  const currentLocationIndex = footerLocations.indexOf(currentLocation.pathname);
 
   const classes = useStyles();
   const [value, setValue] = React.useState(currentLocationIndex);
@@ -35,24 +33,9 @@ export default function Footer() {
       showLabels
       className={classes.root}
     >
-      <BottomNavigationAction
-        label="Accueil"
-        icon={<HomeIcon />}
-        component={Link}
-        to="/"
-      />
-      <BottomNavigationAction
-        label="Historique"
-        icon={<HistoryIcon />}
-        component={Link}
-        to="/history"
-      />
-      <BottomNavigationAction
-        label="Joueurs"
-        icon={<GroupIcon />}
-        component={Link}
-        to="/gamers"
-      />
+      <BottomNavigationAction label="Accueil" icon={<HomeIcon />} component={Link} to="/" />
+      <BottomNavigationAction label="Historique" icon={<HistoryIcon />} component={Link} to="/history" />
+      <BottomNavigationAction label="Joueurs" icon={<GroupIcon />} component={Link} to="/gamers" />
     </BottomNavigation>
   );
 }
