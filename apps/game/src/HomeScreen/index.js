@@ -15,6 +15,9 @@ const useStyles = makeStyles({
   title: {
     textAlign: 'center',
   },
+  spacer: {
+    height: '10px',
+  },
 });
 
 export default function Home() {
@@ -34,6 +37,7 @@ export default function Home() {
       >
         Nouvelle partie
       </Button>
+      <div className={classes.spacer} />
     </div>
   );
 }
